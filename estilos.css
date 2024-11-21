@@ -1,0 +1,128 @@
+body{
+        margin: 0;
+    padding: 0;
+}
+h1{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+float: right;
+margin-top: 9%;
+font-size: 600%;
+}
+
+li{
+    list-style: none;
+margin-top: 2%;
+
+}
+.menu{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    font-size: 90%;
+   text-indent: 3em;
+  
+}
+ul{
+    display: flex;
+}       
+
+header{
+    background: url();
+    height: 100vh;
+background-size: cover;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    text-decoration: none;
+}
+  .cart-icon img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+   margin-top: 20%;
+   
+  }
+  .menu-hamburguesa {
+    width: 45px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-right: 20%;
+    margin-top: -6%;
+ 
+}
+.menu-hamburguesa span {
+    display: block;
+    height: 6px;
+    background-color: #ef82db;
+    border-radius: 4px;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+.container{
+    width: 50%;
+    min-height: 100hv;
+    padding: 5%;
+    background-image: linear-gradient(rgba(0,8,51,0,9), rgba(0,8,51,0,9), url(./searchmagnifierinterfacesymbol1_79893.png));
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -6.5%;
+}
+.search-bar{    
+    height: 60%;
+    width: 90%;
+    max-width: 700px;
+    background: #d8b7fe;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+ 
+}
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: black;
+    font-size: 100%;
+    margin: 0;
+}
+::placeholder{
+    color: black;
+}
+.search-bar button img{
+    width: 25px;
+}
+.search-bar button{
+    border: 0;
+    border-radius: 60%;
+    width: 0%;
+    height: 40%;
+    margin-left: -90%;
+    margin-right: 6%;
+    margin-top: -6%;
+    background: #d8b7fe;
+    cursor: pointer;
+}
