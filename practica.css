@@ -1,0 +1,111 @@
+.parrafo123{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.parrafo2{
+    width: 42%;
+}
+a{
+    background-color: rgb(255, 127, 204);
+    text-decoration: none;
+    color: black;
+    font-size: 130%;
+    border-radius: 7px;
+}
+li{
+    list-style: none;
+    margin-right: 20%;
+}
+ul{
+    display: flex;
+}
+.otromenu{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70%;
+}
+header{
+    background-color: plum;
+}
+.lo{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+
+}
+.iw{
+    width: 23%;
+ padding: 38px;
+ border-radius: 10px;
+ margin-bottom: 40px;
+ color: aliceblue;
+justify-content: space-between;
+margin-right: 30px;
+margin-left: 11px;
+}
+img{
+    float: right;
+}
+p{
+    font-size: 20px;
+}
+.violeta{
+    background-color: palevioletred;
+    
+
+}
+.celeste{
+    background-color:plum;
+   
+}
+
+.position{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.slider{
+    background-image: url(im1.jpg);
+    background-size: cover;
+    height: 50%;
+    width: 50%;
+    border-radius: 10px;
+    animation: animate 10s infinite;
+    margin-top: 90%;
+}
+
+@keyframes animate{
+    20%{
+        background-image: url(im2.jpg);
+        background-size: cover;
+        height: 500px;
+        width: 500px;
+    }
+    40%{
+        background-image: url(im3.jpg);
+        background-size: cover;
+        height: 500px;
+        width: 500px;
+    } 60%{
+        background-image: url(im4.jpg);
+        background-size: cover;
+        height: 500px;
+        width: 500px;
+    } 80%{
+        background-image: url(im5.jpg);
+        background-size: cover;
+        height: 500px;
+        width: 500px;
+    } 100%{
+        background-image: url(im1.jpg);
+        background-size: cover;
+        height: 500px;
+        width: 500px;
+    }
+}
+body { font-family: Arial, sans-serif; margin: 0; }
+.menu { display: none; background: #333; padding: 10px; }
+.menu a { color: white; text-decoration: none; display: block; padding: 5px; }
+.hamburguesa { cursor: pointer; padding: 10px; background: #333; color: white; }

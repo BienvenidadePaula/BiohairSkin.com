@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+background-image: url(nuri.gif);
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    margin: 0;
+  }
+  
+  header nav ul li {
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 20px;
+  }
+  
+  .logo-colorful {
+    text-align: center;
+    background: linear-gradient(135deg, #87ceeb, #dda0dd);
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .logo-colorful h1 {
+    font-family: "Georgia", serif;
+    font-size: 36px;
+    color: #000;
+  }
+  
+  .logo-colorful span {
+    font-style: italic;
+  }
+  
+  .logo-simple {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo-simple h1 {
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.logo-simple span {
+  font-style: italic;
+  color: #8b008b;
+}
+    
