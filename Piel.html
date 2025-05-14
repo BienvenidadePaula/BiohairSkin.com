@@ -9,6 +9,10 @@
 </head>
 <body>
     <header>
+      <div id= "accessibility-controls">
+        <button onclick="changeFontSize(1)">A+</button>
+        <button onclick="changeFontSize(-1)">A-</button>
+    </div>
             <nav>
          <ul>
          <li ><a href="Index.html"> Inicio</a></li>
@@ -173,5 +177,14 @@
       </div> </td>
 </tr>
 <table>
+  <script>
+    let currentFontSize =16;
+    function changeFontSize(delta){
+        currentFontSize +=delta;
+        if( currentFontSize <12) currentFontSize=12;
+        if(currentFontSize >30) currentFontSize =30;
+        document.body.style.fontSize = currentFontSize + "px";
+    }
+</script>
 </body>
 </html>
