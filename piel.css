@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+padding: 0;
+height: 100vh;
+font-family: 'Glacial Indifference', sans-serif;
+text-indent: 2.5em;
+}
+li{
+list-style: none;
+margin-top: 2%;
+padding-right: 9px;
+}
+.menu{
+display: flex;
+justify-content:space-around;
+align-items:center;
+font-size: 94%;
+}
+ul{
+display: flex;
+margin-left: 25%;
+}       
+.ty{
+text-decoration-line:underline;
+}
+a{
+text-decoration: none;
+color: black;
+}
+a:hover{
+text-decoration: none;
+text-decoration:underline; color:black; 
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.search-bar{    
+  height: 45%;
+  width: 80%;
+  background: #ef82db;
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 10px 20px;
+  margin-top: 2%;
+  margin-left: 1em;
+}
+.search-bar input{
+  background: transparent;
+  flex: 1;
+border: none;
+  outline: none;
+  padding: 24px 20px;
+  font-size: 15px;
+  color: black;
+}
+.search-bar button img{
+  width: 18px;
+}
+.search-bar button{
+  border: 0;
+  border-radius: 60%;
+  width: 0%;
+  height: 40%;
+  margin-left: -93%;
+  margin-right: 6.5%;
+  margin-top: -6%;
+  cursor: pointer;
+}
+h1{
+    display: flex;
+    justify-content: space-between;
+margin-top: -4%;
+font-size: 270%;
+color: #ffa6dd;
+align-items: center;
+font-family: 'Times New Roman', Times, serif;
+margin-left: 29%;
+}
+p{
+    margin-left: 15%;
+}
+b{
+    color: #ef82db;
+}
+.im1{
+    background-color: #c9e4ff;
+   padding: 20px;
+    position: relative;
+}
+  h3{
+    width: 100%;
+    color: #999;
+    font-family: monospace;
+  }
+.estilo-c{
+    font-family: sans-serif;
+    width: 70%;
+margin-left: 40%;
+  }
+  .estilo-c .img-container{
+    overflow: hidden;
+    height: 250px;
+    position: relative;
+    border-radius: 15px;    
+  }
+  .estilo-c .img-container img{
+    width: 88%;
+    position: absolute;
+    top: -2%;
+    display: inline-block;
+  }
+  .estilo-c .img-container .promo{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    font-size: 13px;
+    background: #c9e4ff;
+    padding: 10px;
+    color: black;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+  .estilo-c .info-container{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+   justify-content: center;
+  }
+  .estilo-c .info-container h3,
+  .estilo-c .info-container strong,
+  .estilo-c .info-container span{
+    padding: 5px 10px;
+    width: 90%;
+  }
+  .estilo-c .add-cart{
+    margin-top: 2px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 25px; 
+  }
+  .estilo-c .add-cart:hover{
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+  }
+  
+  /*RESPONSIVE*/
+  @media screen and (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+      padding: 0;
+    }
+  
+    li {
+      margin: 10px 0;
+      padding: 0;
+    }
+  
+    .search-bar {
+      flex-direction: row;
+      justify-content: center;
+      width: 90%;
+      margin: 10px auto;
+    }
+  
+    .search-bar input {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    .search-bar button {
+      margin-left: 10px;
+      margin-top: 0;
+      width: auto;
+      height: auto;
+    }
+  
+    h1 {
+      font-size: 180%;
+      margin: 20px auto;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    p {
+      text-align: center;
+      margin-left: 5%;
+      margin-right: 5%;
+      font-size: 14px;
+    }
+  
+    .estilo-c {
+      width: 90%;
+      margin: 20px auto;
+    }
+  
+    .estilo-c .img-container {
+      height: auto;
+    }
+  
+    .estilo-c .img-container img {
+      width: 100%;
+      position: static;
+    }
+  }
+  /*Accesibilidad*/
+body{
+  font-size: 16px;
+  transition: font-size 0.2s ease;
+}
+#accessibility-controls{
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 999;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+#accessibility-controls button{
+  font-size: 18px;
+  margin: 0 5px;
+  cursor: pointer;
+}
