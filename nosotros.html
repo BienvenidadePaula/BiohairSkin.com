@@ -8,10 +8,14 @@
     <link rel="shorcut icon" href="logoweb-Photoroom (1).png">
 </head>
 <body>
-    <header>                        
+    <header>    
+      <div id= "accessibility-controls">
+        <button onclick="changeFontSize(1)">A+</button>
+        <button onclick="changeFontSize(-1)">A-</button>
+    </div>                    
             <nav>
          <ul>
-         <li ><a href="Index.html"> Inicio</a></li>
+         <li ><a href="index.html"> Inicio</a></li>
          <li ><a href="Piel.html">Piel</a></li>
          <li><a href="Cabello.html">Cabello</a></li>
          <li><a href="contactanos.html">Contactanos</a></li>
@@ -36,8 +40,50 @@
                         <br>
                         <br>
                         Si estás buscando productos de calidad para el cuidado de tu piel y cabello, este lugar es simplemente insuperable. Ofrecemos una increíble variedad de marcas reconocidas a nivel mundial, como Avene, Eucerin, La Roche-Posay, y muchas más, garantizando productos dermatológicamente recomendados y efectivos.
+                       <br>
+                       <br>
+                        <H2>MISION</H2>
+                        <br>
+                        En Biohair & Skin, nuestra mision es proporcionar soluciones integrales y naturales para el cuidado del cabello y la piel, utilizando productos de alta calidad y tecnicas innovadoras que promuevan la salud y el bienestar de nuestros clientes. Nos comprometemos a ofrecer un servicio personalizado y profesional, respetando el medio ambiente y fomentando la confianza y la satisfaccion en cada esperiencia.
+                        <br>
+                        <br>
+                        <H2>VISION</H2>
+                        <br>
+                        Nuestra vision es expandirnos y convertirnos en una referencia en el sector, ofreciendo soluciones personalizadas que respeten el medio ambiente y realcen la belleza natural de cada persona.
+                        <br>
+                        <br>
+                        <H2>METAS</H2>
+                        <br>
+                        • Ampliar la cartera de clientes fidelizando los actuales y atrayendo mas promociones, ofertas o campañas.
+                        <br>
+                        • Garantizar la calidad de los productos que ofrecemos.
+                        <br>
+                        • Abrir nuevos puntos de ventas.
+                        <br>
+                        • Expandirnos a nivel nacional e internacional.
+                        <br>
+                        <br>
+                        <H2>OBJETIVOS INSTITUCIONALES</H2>
+                        <br>
+                        • Brindar productos y servicios de alta calidad que promuevan la salud y la belleza natural.
+              <br>
+              • Garantizar la seguridad y eficacia de los productos, a traves de pruebas y certificaciones necesarias.
+                       <br>
+                       •  Expandir la presencia en el mercado mediante estrategias de marketing digital y redes sociales.
+                        <br>
+                        • Ampliar la linea de productos y explorar nuevas tendencias.
                     </td>
                     </tr>
                   </table>
+                  <br><br>
+                  <script>
+                    let currentFontSize =16;
+                    function changeFontSize(delta){
+                        currentFontSize +=delta;
+                        if( currentFontSize <12) currentFontSize=12;
+                        if(currentFontSize >30) currentFontSize =30;
+                        document.body.style.fontSize = currentFontSize + "px";
+                    }
+                </script>
 </body>
 </html>
